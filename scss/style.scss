@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
 @import "resetcss.scss";
 
 
+
+body {
+  font-family: "forum";
+}
 
 html {
   font-size: calc(100vh/1440*10);
