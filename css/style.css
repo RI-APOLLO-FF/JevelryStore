@@ -70,3 +70,34 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+html {
+  font-size: 0.6944444444vh;
+}
+@media (max-width: 360px) {
+  html {
+    font-size: 1.9444444444vh;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.footer {
+  margin-top: auto;
+  border: 0.3rem solid black;
+}
