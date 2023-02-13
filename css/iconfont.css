@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?41ekv');
+  src:  url('../fonts/icomoon.eot?41ekv#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?41ekv') format('truetype'),
+    url('../fonts/icomoon.woff?41ekv') format('woff'),
+    url('../fonts/icomoon.svg?41ekv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, 
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+  content: "\e904";
+}
+.icon-shopping_bag:before {
+  content: "\e901";
+}
+.icon-heart:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-instagram:before {
+  content: "\e903";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-arrow-left2:before {
+  content: "\ea40";
+}
